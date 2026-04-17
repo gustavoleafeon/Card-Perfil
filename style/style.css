@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background: #50967b;
+    background: linear-gradient(126deg, #f0ffae 1%, #696bc9 42%, #b3b4bd 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI';
+
+}
+
+main {
+
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    padding: 40px;
+    gap: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px 10px rgba(0, 0, 0, 0.2);
+
+    /* box shadow:
+    1 offset-x deslocamento horizontal da sombra
+    2 offset-y deslocamento vertical da sombra
+    3 blur-radius raio de desfoque da sombra
+    4 spread-radius raio de expansão da sombra  
+    5 color cor da sombra
+    */
+}
+ 
+header {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+.perfil {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #667eea;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    outline: 1px solid #ffffff;
+    outline-offset: -5px;
+
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 40px;
+    color: rgb(253, 255, 231);
+}
+h3 {
+    font-weight: 650;
+    color: #667eea;
+}
+
+p {
+    text-align: center;
+    line-height: 1.5;
+    color: #555555;
+}
+
+h4 {
+    font-size: 22px;
+    font-weight: 500;
+}
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+UL LI {
+    background-color: #dfdfdf;
+    color: #667eea;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+    font-weight: 600;
+    border: none;
+    background: linear-gradient(126deg, #f0ffae 1%, #696bc9 42%, #b3b4bd 100%);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: #555555 0px 5px 10px;
+    transition: background-color 3s ease;
+}
+
+button:hover{
+
+    background: #696bc9;
+    transform:translateY(2);
+    box-shadow: none;
+}
+git config --global user.name "gustavo.leafeon"
+git config --global user.email "gustavo.leafeon@gmail.com"
